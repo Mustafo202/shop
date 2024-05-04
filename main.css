@@ -1,0 +1,39 @@
+*{
+ margin: 0;   
+ padding: 100;
+ box-sizing: border-box;
+
+}
+.box{
+width: 100px;
+height: 100px;
+background-color: blue;
+animation: anime 2s linear infinite;
+
+}
+@keyframes anime {
+0%{
+transform: translate(0px, 0px);
+background-color: blue;
+}
+16.6%{
+transform: translate(300px, 0px);
+background-color: blue;
+}
+33.2%{
+   transform: translate(300px, 300px);
+   background-color: blue;
+}
+66.8%{
+
+transform: translate(300px, 0px);
+background-color: blue;
+}
+83.4%{
+transform: translate(0px, 300px);
+background-color: rgb(47, 0, 255);
+}
+100%{
+
+}
+}
